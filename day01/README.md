@@ -2,13 +2,15 @@
 
 ### :page_with_curl: ex00 명명법
 - Camel Case ?  
-	합쳐진 부분마다 맨 처음 글자를 대문자로 표기하는 방법
+	합쳐진 부분마다 맨 처음 글자를 대문자로 표기하는 방법  
+	
 - Lower Camel Case : 각 단어의 첫 문자를 대문자로 표시하되, 이름의 첫문자는 소문자로 적는다.  
-	function, method, variable, constant  
-	ex) myName, someVariable
+	>function, method, variable, constant 
+	>>ex) myName, someVariable  
+	
 - Upper Camel Case : 전체 이름의 첫 문자를 포함한 각 단어의 첫 문자를 대문자로 표시한다. PascalCase라고도 불린다.  
-	type (class, struct, enum, extension ...)  
-	ex) Person, Day, Point 
+	>type (class, struct, enum, extension ...)  
+	>>ex) Person, Day, Point 
 
 ### :page_with_curl: ex01 콘솔 로그남기기
 - print 함수: 단순 문자열 출력
@@ -18,7 +20,7 @@
 - 프로그램 실행 중 문자열 내 변수 또는 상수를 값을 표현하기 위해 사용  
 	\\()
 
-'''swift
+~~~~
 import Swift
 
 let age: Int = 10
@@ -37,4 +39,4 @@ let taetae: Person = Person()
 print(taetae)
 print("\n####################\n")
 dump(taetae)
-'''
+~~~~
