@@ -20,7 +20,7 @@
 - 프로그램 실행 중 문자열 내 변수 또는 상수를 값을 표현하기 위해 사용  
 	\\()
 
-~~~~
+```swift
 import Swift
 
 let age: Int = 10
@@ -39,4 +39,4 @@ let taetae: Person = Person()
 print(taetae)
 print("\n####################\n")
 dump(taetae)
-~~~~
+```
