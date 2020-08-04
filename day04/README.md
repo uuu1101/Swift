@@ -37,7 +37,7 @@ func printYourName(name: String){
 }
 ```
 
-## 3.매개변수가 없는 함수
+## 3. 매개변수가 없는 함수
 ```swift
 func 함수이름() -> 반환타입{
 	// 함수 구현부 //
@@ -50,7 +50,7 @@ func maximumIntegerValue() -> Int{
 }
 ```
 
-## 4.매개변수와 반환값이 없는 함수
+## 4. 매개변수와 반환값이 없는 함수
 ```swift
 func 함수이름() -> Void{
 	//함수 구현부//
