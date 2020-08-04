@@ -181,5 +181,5 @@ runAnother(function:greeting(friend:me:))
 
 //Hello jenny! I'm mike
 runAnother(function:someFunction)
-
-** **스위프트 전반적인 문법에서 띄어쓰기를 신경써야할 때가 많다.**
+```
+** 스위프트 전반적인 문법에서 띄어쓰기를 신경써야할 때가 많다 **
