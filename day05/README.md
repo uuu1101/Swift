@@ -1,4 +1,5 @@
-## :runner: Day04
+## :runner: Day05
+- **조건문과 반복문**
 
 ### :page_with_curl: ex00. 조건문
 - if-else
@@ -82,3 +83,67 @@ default:
   print("unknown")
 } // taetae
 ```
+
+### :page_with_curl: ex01. 반복문
+ - for-in
+ - while
+ - repeat-while
+ 
+ #### 1. for-in 구문
+ - 기존 언어의 for-each 구문과 유사하다.
+ - Dictionary의 경우 이터레이션 아이템으로 튜플이 들어온다.[Reference](https://docs.swift.org/swift-book/LanguageGuide/TheBasics.html)의 tuples 부분 참조.
+ - 이터레이션 아이템 ?
+ - for-in 구문 기본 형태
+ ```swift
+ for item in iterms {
+ /* 실행 구문 */
+ }
+ ```
+ - **for-in 구문의 사용
+ 
+ ```swift
+ var integers = [1, 2, 3]
+ let people = ["taetae":10, "tony":15, "lina": 12]
+ 
+ for integer in integers {
+  print(integer)
+ }
+ 
+ // Dictionary의 item은 key와 value로 구성된 튜플 타입이다.
+ for (name,age) in people {
+  print("₩(name): ₩(age)")
+ }
+ ```
+ 
+ #### 2. while 구문
+ - **while 구문의 기본 형태**
+ ```swift
+ while 조건 {
+ /* 실행 구문 */
+}
+```
+ - **while 구문의 사용**
+ 
+ ```swift
+ while integers.count > 1 {
+  integers.removeLast()
+ }
+ ```
+ 
+ #### 3. repeat-while 구문
+ - 기존 언어의 do-while 구문과 형태/동작이 유사하다.
+ - **repeat-while 구문의 기본 형태**
+ 
+ ```swift
+ repeat {
+  /* 실행 구문 */
+  } while 조건
+ ```
+ 
+ - **repeat-while 구문의 사용**
+ 
+ ```swift
+ repeat {
+  integers.removeLast()
+  } while.integers.count > 0
+  ```
