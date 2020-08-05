@@ -91,7 +91,7 @@ default:
  
  #### 1. for-in 구문
  - 기존 언어의 for-each 구문과 유사하다.
- - Dictionary의 경우 이터레이션 아이템으로 튜플이 들어온다.[Reference](https://docs.swift.org/swift-book/LanguageGuide/TheBasics.html)의 tuples 부분 참조.
+ - Dictionary의 경우 이터레이션 아이템으로 튜플이 들어온다. [Reference](https://docs.swift.org/swift-book/LanguageGuide/TheBasics.html)의 tuples 부분 참조.
  - 이터레이션 아이템 ?
  - for-in 구문 기본 형태
  ```swift
