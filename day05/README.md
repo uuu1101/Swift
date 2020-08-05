@@ -147,3 +147,8 @@ default:
   integers.removeLast()
   } while.integers.count > 0
   ```
+  
+  각주1 [^1], 각주2 [^2]
+ 
+[^1]: 각주 테스트 1
+[^2]: 각주 테스트 2
