@@ -93,6 +93,9 @@ default:
  - 기존 언어의 for-each 구문과 유사하다.
  - Dictionary의 경우 이터레이션 아이템으로 튜플이 들어온다. [Reference](https://docs.swift.org/swift-book/LanguageGuide/TheBasics.html)의 tuples 부분 참조.
  - 이터레이션 아이템 ?
+ >> Iteration ? 
+ >> 어떤 객체의 원소에 하나씩 차례로 접근하는 것. 명시적으로든 암묵적으로든 반복문을 사용해 객체의 여러 원소에 하나하나 접근하면 그것은 이터레이션(iteration)이다.  
+ 
  - for-in 구문 기본 형태
  ```swift
  for item in iterms {
@@ -148,7 +151,3 @@ default:
   } while.integers.count > 0
   ```
   
-  각주1 [^1], 각주2 [^2]
- 
-[^1]: 각주 테스트 1
-[^2]: 각주 테스트 2
